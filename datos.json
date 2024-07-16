@@ -1,0 +1,32 @@
+[
+    {
+        "producto": "Adidas Yeezy",
+        "valor": 150.00,
+        "imagen": "img/yeezy.webp"
+    },
+    {
+        "producto": "Nike Stussy",
+        "valor": 95.00,
+        "imagen": "img/stussy.webp"
+    },
+    {
+        "producto": "Adidas Slides",
+        "valor": 50.00,
+        "imagen": "img/slides.webp"
+    },
+    {
+        "producto": "New Balance 9060",
+        "valor": 75.00,
+        "imagen": "img/newbalance.webp"
+    },
+    {
+        "producto": "Jordan 3",
+        "valor": 200.00,
+        "imagen": "img/joradan.webp"
+    },
+    {
+        "producto": "Adidas Bad Bunny",
+        "valor": 500.00,
+        "imagen": "img/badbunny.webp"
+    }
+]

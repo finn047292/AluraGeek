@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo-head.png">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="img/alura-geek.png" class="img-logo" alt="Logo">
+    </header>
+
+    <main>
+        <div class="container" id="produtos">
+            <!-- Mis productos-->
+            <section class="menu-productos" id="menuProductos">
+                <h1>Mis Productos:</h1>
+                <div class="productos">
+                    <!--
+                    <div class="card">
+                        <img src="img/darth.png" alt="Imagen del producto">
+                        <div class="card-container--info">
+                            <p>Darth</p>
+                            <div class="card-container--value">
+                                <p>$ 80.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/yoda.png" alt="Imagen del producto">
+                        <div class="card-container--info">
+                            <p>Mestre Yoda</p>
+                            <div class="card-container--value">
+                                <p>$ 95.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Shuba.png" alt="Imagen del producto">
+                        <div class="card-container--info">
+                            <p>Chewbacca</p>
+                            <div class="card-container--value">
+                                <p>$ 70.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/r2d2.png" alt="Imagen del producto">
+                        <div class="card-container--info">
+                            <p>R2D2</p>
+                            <div class="card-container--value">
+                                <p>$ 60.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/bb8.png" alt="Imagen del produto">
+                        <div class="card-container--info">
+                            <p>BB8</p>
+                            <div class="card-container--value">
+                                <p>$ 65.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/storm.png" alt="Imagen del produto">
+                        <div class="card-container--info">
+                            <p>Stormtrooper</p>
+                            <div class="card-container--value">
+                                <p>$ 70.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nave.png" alt="Imagen del produto">
+                        <div class="card-container--info">
+                            <p>Nave 1</p>
+                            <div class="card-container--value">
+                                <p>$ 45.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nave2.png" alt="Imagen del produto">
+                        <div class="card-container--info">
+                            <p>Nave 2</p>
+                            <div class="card-container--value">
+                                <p>$ 45.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nav3.png" alt="Imagen del produto">
+                        <div class="card-container--info">
+                            <p>Nave 3</p>
+                            <div class="card-container--value">
+                                <p>$ 45.00</p>
+                                <img class="trash" src="img/trash.png" alt="Ícono de eliminación">
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </section>
+
+            <!-- Agregar Productos -->
+            <section id="productos-container" class="produtos-container agregar-productos">
+                <h1>Agregar<br>Producto:</h1>
+                <form id="form-producto">
+                    <div class="input-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre...." required>
+                        <input type="number" id="precio " name="precio" placeholder="Precio...." required>
+                        <input type="file" id="imagen" name="imagen" placeholder="Imagen...." required>
+                    </div>
+                    <div class="button-group">
+                        <button class="enviar" type="submit">Enviar</button>
+                        <button class="limpiar" type="reset">Limpiar</button>
+                    </div> 
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Pie de Pagina -->
+    <footer>
+        <img src="img/alura-geek.png" class="img-logo" alt="Logo">
+        <p>Desarrollado por Ende Yahir Hernandez Ramirez</p>
+        <nav>
+            <a href="https://www.linkedin.com/in/ende-yahir-hernandez-ramirez-5913b9281/?trk=public-profile-join-page" target="_blank" rel="noopener noreferrer"> <img src="img/linkedin.png" class="icons" alt="Icono Linkedin"></a>
+            <a href="https://www.instagram.com/yahirraz10?igsh=MXFveGhnaW1jMjRwaQ==" target="_blank" rel="noopener noreferrer"> <img src="img/instagram.png" class="icons" alt="Icono Instagram" ></a>
+            <a href="https://github.com/finn047292" target="_blank" rel="noopener noreferrer"> <img src="img/github.png" class="icons" alt="Icono Github" ></a>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
